@@ -7,7 +7,7 @@ type JobBoxProps = {
     postingDate: string;
 }
 
-export function JobBox( { jobTitle, company, description, postingDate }: JobBoxProps ){
+export default function JobBox( { jobTitle, company, description, postingDate }: JobBoxProps ){
 
     //Treatment to print the job posting date
     let dateString = new Date(postingDate).toLocaleString('en-US', {

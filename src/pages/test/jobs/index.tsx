@@ -1,7 +1,7 @@
 
 import type { NextPage } from 'next'
 import styles from '../../../styles/Jobs.module.css'
-import { JobBox } from '../../components/JobBox'
+import JobBox from '../../components/JobBox'
 import { GetServerSideProps } from "next";
 import axios from 'axios';
 import { ChangeEvent, useEffect, useState } from 'react';
