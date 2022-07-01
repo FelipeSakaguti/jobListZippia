@@ -1,0 +1,55 @@
+.container {
+  flex: 1;
+  width: 100%;
+  max-width: 30rem;
+  justify-content: align-left;
+  align-items: align-left;
+
+  border: solid 1px #cdcdcd;
+  border-radius: 0.4rem;
+
+  margin-top: 1.25rem;
+}
+
+.job {
+  display: flex;
+  flex-direction: column;
+
+  border-left: solid 5px #6495ed;
+  border-radius: 0.4rem;
+  padding: 1rem 0.5rem 1rem 1rem;
+}
+
+.job strong {
+  font-size: 1.25rem;
+}
+
+.jobHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.company {
+  margin-top: 0.5rem;
+
+  color: #808080;
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+
+.date {
+  margin-top: 0.5rem;
+
+  color: #808080;
+  font-weight: regular;
+  font-size: 0.75rem;
+}
+
+.description {
+  margin-top: 0.25rem;
+
+  color: #808080;
+  font-weight: regular;
+  font-size: 0.875rem;
+}
